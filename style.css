@@ -1,0 +1,152 @@
+
+html a{
+  text-decoration: none;
+}
+/* header */
+#header{
+  background-color: #bf0600;
+}
+#nav-menu{
+  background-color: #fff;
+}
+#header .button{
+  color: #bf0600;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#header .button:hover{
+  color: #000;
+}
+
+#nav-menu .nav-link:hover{
+  color: #bf0600;
+}
+
+/* feadtured */
+#feadtured{
+  margin-top: 40px;
+}
+#feadtured .card{
+  margin-top: 10px;
+  border: none;
+}
+#feadtured .feadtured-main .card-title{
+  background-color: #000;
+  opacity: 0.9;
+  padding-bottom: 20px;
+}
+#feadtured .feadtured-main a{
+  color: #fff;
+  text-decoration: none;
+}
+#feadtured .feadtured-sub{
+  margin-top: 20px;
+}
+#feadtured .feadtured-sub a{
+  color: #000;
+  text-decoration: none;
+}
+/* Main content */
+#main-content{
+  margin-top: 40px;
+}
+
+#main-content .content-item1,
+#main-content .content-item2,
+#main-content .content-item3,
+#main-content .content-item4,
+#main-content .content-item5{
+  margin-top: 10px;
+}
+#main-content .content-item2 img,
+#main-content .content-item5 img{
+  margin: 10px;
+}
+
+#main-content .content-item2 .card,
+#main-content .content-item3 .card,
+#main-content .content-item4 .card,
+#main-content .content-item5 .card,
+#main-content .content-bar_item .card{
+  border: none;
+}
+
+#main-content .content-item1 .card{
+  height: 200px;
+}
+
+#main-content .content-item3 .card{
+  height: 250px;
+}
+
+#main-content .content-item4 .card{
+  height: 700px;
+}
+
+
+#main-content .card-title a{
+  color: #000;
+}
+#main-content .card-text a{
+  color: #bf0600;
+  font-weight: bold;
+}
+#main-content .card-button{
+  background-color: #ccc;
+  text-align: center;
+  padding: 2px 0;
+  border: 1solid #000;
+  border-radius: 5px;
+}
+#main-content .card-button a{
+  color: #fff;
+}
+#main-content .card-button:hover{
+  background-color: #bf0600;
+}
+
+/* content-bar */
+#main-content .content-bar{
+  margin-top: 80px;
+}
+
+#main-content .content-bar{
+  height: 100%;
+  position: sticky;
+  top: 100px;
+}
+#main-content .content-bar .fl-page a{
+  color: #365899;
+}
+
+#main-content .content-bar .follower{
+  background-color: #ccc;
+}
+
+#main-content .content-bar_item{
+  margin-top: 20px;
+}
+
+
+/* footer */
+#footer{
+  margin-top: 40px;
+  background-color:#18191f;
+  opacity: 0.9;
+  color: #fff;
+}
+#footer .footer-top .container{
+  border-bottom: 1px solid #365899;
+}
+#footer h6{
+  color: #bf0600;
+}
+#footer .nav-link{
+  color: #fff;
+  padding: 0 10px;
+}
+#footer .nav-link:hover{
+  color: #bf0600;
+}
